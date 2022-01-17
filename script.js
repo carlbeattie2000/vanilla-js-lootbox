@@ -22,7 +22,7 @@ function LootTable () {
     },
     {
       img: "./img/hammerFine.png",
-      sellFor: 30,
+      sellFor: 50,
       weight: 300
     },
     {
