@@ -31,7 +31,7 @@ function LootTable () {
       weight: 5
     },
     {
-      img: "./axeFlawless.png",
+      img: "./img/axeFlawless.png",
       sellFor: 300,
       weight: 20
     }
