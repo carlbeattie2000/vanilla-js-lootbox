@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./main.css">
+  <title>LootBoxesBetter</title>
+</head>
+
+<body>
+  <div class="container">
+    <div class="loot-item">
+      <img src="./img/swordBasic.png" id="lootItem">
+    </div>
+    <div class="loot-box-lid"></div>
+    <div class="loot-box-outer"></div>
+    <div class="loot-box-center"></div>
+    <div class="loot-box-outer"></div>
+    <div class="open-button">
+      <button id="open-box">Unlock</button>
+    </div>
+  </div>
+  <div class="coins"><span id="coins">500</span> &nbsp;coins</div>
+  <div class="inventory" id="inventory"></div>
+
+  <div class="no-coins-left hidden" id="noCoinsLeftWindow">
+    <span>You have ran out of coins</span>
+    <button onclick="player.addCoins(100); this.parentElement.classList.toggle('hidden');">add more</button>
+    <button onClick="this.parentElement.classList.toggle('hidden');">Close</button>
+  </div>
+
+  <script src="./script.js"></script>
+</body>
+
+</html>
