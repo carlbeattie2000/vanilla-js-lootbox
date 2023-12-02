@@ -27,13 +27,18 @@ function LootTable () {
     },
     {
       img: "./img/hammerMyth.png",
-      sellFor: 600,
-      weight: 5
+      sellFor: 1200,
+      weight: 100
     },
     {
       img: "./img/axeFlawless.png",
       sellFor: 300,
       weight: 20
+    },
+    {
+      img: "https://cdn.discordapp.com/attachments/1092099107662872597/1173796456042340443/IMG_2078.jpg?ex=6577b723&is=65654223&hm=c1de86a75a8b54f8b1b39d84ba4a6c232d21ce105fec531d0e9ed7cb48776d34&",
+      sellFor: 2,
+      weight: 1000
     }
   ];
 
